@@ -24,3 +24,5 @@ def generate_comment(context):
     
     except Exception as e:
         return f"Error: {str(e)}"
+# Load API key from .env file
+# make it as private
